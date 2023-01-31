@@ -18,7 +18,7 @@ const Header = () => {
                 <div id = "headercontainer">
                     <div id = "mainmenu">
                         <div><Link to="#aboutsection" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Apie" : "About"}</Link></div>
-                        <div><Link to="#fullwidthcenteringbgyellow" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Kontaktai" : "Contact"}</Link></div>
+                        <div><Link to="#contact" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Susisiekite" : "Contact"}</Link></div>
                         <div><Link to="#projects" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Proektai" : "Projects"}</Link></div>
                     </div>
                     <BurgerMenu burgerActive = {burgerActive} makeBurgerActive = {makeBurgerActive} />
@@ -30,9 +30,9 @@ const Header = () => {
             </nav>
             <div id = "fullwidthcentering" style = {{backgroundColor:"#61dafb"}}>
                 <div id = "mainmenusmall" style={{display: burgerActive ? "block" :"none"}}>
-                    <div id="mainmenusmallitem">{lang.getLanguage() == "LT" ? "Apie" : "About"}</div>
-                    <div id="mainmenusmallitem">{lang.getLanguage() == "LT" ? "Paslaugos" : "Services"}</div>
-                    <div id="mainmenusmallitem">{lang.getLanguage() == "LT" ? "Kontaktai" : "Contact"}</div>
+                    <div id="mainmenusmallitem"><Link to="#aboutsection" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Apie" : "About"}</Link></div>
+                    <div id="mainmenusmallitem"><Link to="#contact" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Susisiekite" : "Contact"}</Link></div>
+                    <div id="mainmenusmallitem"><Link to="#projects" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Projektai" : "Projects"}</Link></div>
                 </div>
             </div>
         </>
