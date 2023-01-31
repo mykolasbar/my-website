@@ -32,7 +32,7 @@ const Contact = () => {
         
 
     return (
-        <form style={{paddingTop:"40px", paddingBottom:"40px"}} ref={form} onSubmit = {handleSubmit}>
+        <form style={{paddingTop:"40px", paddingBottom:"40px", width:"100%"}} ref={form} onSubmit = {handleSubmit}>
             <h2>{lang.getLanguage() == "LT" ? "Susisiekite" : "Get in touch"}</h2>
             <div style={{display:"flex", flexDirection:"column", width:"100%"}}>
                 <input style={{margin:"10px 0px 5px 0px", height:"50ox", fontSize:"20px"}} type = "text" name = "from_name" onChange={handleData} placeholder = {lang.getLanguage() == "LT" ? "Vardas" : "Name"} />
