@@ -14,7 +14,7 @@ import Backtotopbutton from './backtotopbutton';
 const LandingPage = () => {
     let lang = useContext(LangContext)
     let [showImage, setShowImage] = useState(false)
-    let [image, setImage] = useState()
+    let [image, setImage] = useState('')
     let [showBackToTopButton, setShowBackToTopButton] = useState(false)
 
     let selectImage = (img) => {setImage(img)}

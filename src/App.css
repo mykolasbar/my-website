@@ -266,6 +266,7 @@ a {
     display:flex;
     align-items:center;
     justify-content:center;
+    margin:3px;
   }
 
   #burgermenubackground:hover {
@@ -334,6 +335,7 @@ a {
 
   #fullimage{
     width:90vw;
+    top:28vh;
   }
 
   .backtotopbutton {
