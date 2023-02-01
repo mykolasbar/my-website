@@ -14,6 +14,7 @@ const Header = () => {
     return (
         <>
             <nav id = "header">
+            <BurgerMenu burgerActive = {burgerActive} makeBurgerActive = {makeBurgerActive} />
                 <div style = {{width:"15%"}}></div>
                 <div id = "headercontainer">
                     <div id = "mainmenu">
@@ -21,7 +22,6 @@ const Header = () => {
                         <div><Link to="#contact" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Susisiekite" : "Contact"}</Link></div>
                         <div><Link to="#projects" smooth style={{color:"white"}}>{lang.getLanguage() == "LT" ? "Proektai" : "Projects"}</Link></div>
                     </div>
-                    <BurgerMenu burgerActive = {burgerActive} makeBurgerActive = {makeBurgerActive} />
                 </div>
                 <div style = {{width:"15%", height:"100%", display:"flex", flexDirection:"row", justifyContent:"flex-end"}}>
                     <LanguageSwitcher />

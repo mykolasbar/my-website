@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <LangProvider>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<LandingPage/>} />
             <Route path="/contact" element={<Contact/>} />
