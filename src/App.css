@@ -215,6 +215,7 @@ a {
   max-height:250px;
   width:fit-content;
   width: -moz-fit-content;
+  max-width:380px;
 }
 
 .backtotopbutton {
@@ -251,6 +252,7 @@ a {
   #imagelogos {
     height:200px;
     width:fit-content;
+    width: -moz-fit-content;
   }
 }
 
