@@ -1,5 +1,7 @@
 Small front-end only SPA - proffessional website (to be updated).
 
+Website accessible at: <a href="https://mykolasbar.github.io/my-website/">https://mykolasbar.github.io/my-website/</a>
+
 Features:
 
 <ul>
