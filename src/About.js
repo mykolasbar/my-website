@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div id = "aboutsection">
             <img id = "imagelogos" style = {{}} src = { require("./image3.jpg") } alt="logos"></img>
-            <div style = {{}}>{lang.getLanguage() == "LT" ? <span>Esu pradedantis tinklo programuotojas (web developer). Dirbu su JavaScript, PHP, ReactJS ir Laravel, CSS, HTML, SQL technologijomis. Baigiau PHP + JavaScript fullstack (front-end bei back-end) programuotojo kursus BIT (Baltic Institute of Technology) ir turiu full-stack programuotojo diplomą. Teikiu web programavimo paslaugas itin žemomis kainomis.</span> 
+            <div style = {{}}>{lang.getLanguage() == "LT" ? <span>Esu pradedantis tinklo programuotojas (web developer). Dirbu su JavaScript, PHP, ReactJS ir Laravel, CSS, HTML, SQL technologijomis. Baigiau PHP + JavaScript fullstack (front-end bei back-end) programuotojo kursus BIT (Baltic Institute of Technology) ir turiu full-stack programuotojo programuotojo profesinį diplomą (jaunesniojo programuotojo kvalifikacija, Lietuvos kvalifikacijų 4 lygis). Teikiu web programavimo paslaugas.</span> 
                 : 
                 <span>I am beginner web developer working with with JavaScript, PHP, ReactJS, Laravel, SQL, in addition to HTML and CSS. I have recently obtained a diploma in PHP + JavaScript development from the Baltic Institute of Technology, where, in addition to obtaining theoretical knowledge, I had a chance to build my skillset in working on various applications. I am willing to work on your project for a minimal cost.</span>}
                 <br /><br />
