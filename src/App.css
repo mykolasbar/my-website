@@ -212,10 +212,20 @@ a {
 }
 
 #imagelogos {
-  max-height:250px;
+  max-height:420px;
   width:fit-content;
   width: -moz-fit-content;
   max-width:380px;
+}
+
+#circleLogo {
+  width:120px;
+  height:120px;
+}
+
+#circleLogo:hover {
+  filter: drop-shadow(0px 5px 11px #000);
+  transition: filter 0.2s
 }
 
 .backtotopbutton {
