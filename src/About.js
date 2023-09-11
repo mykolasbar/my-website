@@ -19,7 +19,7 @@ const About = () => {
                     <img id = "circleLogo" style = {{}} src = { require("./sql_logo.png") } alt="logos"></img>
                 </div>
             </div>
-            <div style = {{}}>{lang.getLanguage() == "LT" ? <span>Esu pradedantis tinklo programuotojas (web developer). Dirbu su JavaScript, PHP, ReactJS ir Laravel, CSS, HTML, SQL technologijomis. Baigiau PHP + JavaScript fullstack (front-end bei back-end) programuotojo kursus BIT (Baltic Institute of Technology) ir turiu full-stack programuotojo programuotojo profesinį diplomą (jaunesniojo programuotojo kvalifikacija, Lietuvos kvalifikacijų 4 lygis). Teikiu web programavimo paslaugas.</span> 
+            <div style = {{}}>{lang.getLanguage() == "LT" ? <span>Esu pradedantis tinklo programuotojas (web developer). Dirbu su JavaScript, TypeScript, PHP, ReactJS ir Laravel, CSS, HTML, SQL technologijomis. Baigiau PHP + JavaScript fullstack (front-end bei back-end) programuotojo kursus BIT (Baltic Institute of Technology) ir turiu full-stack programuotojo programuotojo profesinį diplomą (jaunesniojo programuotojo kvalifikacija, Lietuvos kvalifikacijų 4 lygis). Teikiu web programavimo paslaugas.</span> 
                 : 
                 <span>My name is Mykolas, I am beginner web developer working with with JavaScript, PHP, ReactJS, Laravel, SQL, in addition to HTML and CSS. I have recently obtained a diploma in PHP + JavaScript development (European Level 4 qualification, junior programmer vocational degree). During my studies, in addition to obtaining theoretical knowledge, I had a chance to build my skillset in working on various applications. I offer very low fees.</span>}
                 <br /><br />
